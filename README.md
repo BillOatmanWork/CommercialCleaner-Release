@@ -1,4 +1,4 @@
-#Commercial Cleaner 
+# Commercial Cleaner 
 
 CommercialCleaner is a command line utility to remove commercials from a video file at EDL file cutpoints. The EDL file is commonly created by the application ComSkip. It has executables that will run under Windows x64, OSX x64, Linux x64 and Linus ARM. 
 
@@ -10,7 +10,7 @@ The application transitions very smoothly in to and out from where the commercia
 - Allow you to set the audio codec you desire for the output file 
 - List available audio and video codecs (for the 2 commands above) 
 
-##Parameters (case insensitive): 
+## Parameters (case insensitive): 
 
 - -ffmpegpPath=Path to the ffmpeg executable.  Just the folder, the exe is assumed to be ffmpeg.exe or ffmpeg.
 - -inFile=The full path of the input video file that will be cleaned. 
