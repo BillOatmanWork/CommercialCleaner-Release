@@ -23,9 +23,9 @@ The application transitions very smoothly in to and out from where the commercia
 The cleaned video file will be in the same directory as the original file, named the same as the original with “\_clean” appended.  The created file container will always be MKV, regardless of the input format. 
 
 For example, the following command will clean the specified video file and save its output to   C:\\My Movies\\My Little Pony\_clean.mkv 
-...
+```
 CommercialCleaner -  mpegPath="C:\  mpeg\bin” -inFile="c:\\My Movies\\My Little Pony.ts" - videoCodec libx265 
-...
+```
 
 ## Note
 CommercialCleaner is CharityWare. If you like this program and find it of value, please consider making a donation to a local charity that benefits children such as Special Olympics. 
