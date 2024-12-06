@@ -24,7 +24,7 @@ The cleaned video file will be in the same directory as the original file, named
 
 For example, the following command will clean the specified video file and save its output to   C:\\My Movies\\My Little Pony\_clean.mkv 
 ```
-CommercialCleaner -  mpegPath="C:\  mpeg\bin” -inFile="c:\\My Movies\\My Little Pony.ts" - videoCodec libx265 
+CommercialCleaner -mpegPath="C:\mpeg\bin” -inFile="c:\\My Movies\\My Little Pony.ts" -videoCodec=libx265 
 ```
 
 ## Note
